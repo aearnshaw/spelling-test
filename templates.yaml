@@ -4,4 +4,4 @@ repeat: Your words are {{ words|join(", ") }}.
 win: That is correct.
 lose: I'm sorry, that is wrong.
 spell: Spell {{ word }}. 
-end: You got {{ correct }} out of {{ now }} words right.
+end: You got {{ correct }} out of {{ now }} words right. Good job!
