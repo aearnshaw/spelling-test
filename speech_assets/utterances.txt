@@ -1,0 +1,4 @@
+NumberWordsIntent {now}
+NumberWordsIntent number of words is {now}
+NumberWordsIntent I have {now} words
+LetterIntent {a} {b} {c} {d} {e} {f} {g} {h} {i} {j}

@@ -1,0 +1,60 @@
+{
+    "intents": [{
+            "intent": "AMAZON.CancelIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "NumberWordsIntent",
+            "slots": [{
+                "name": "now",
+                "type": "AMAZON.NUMBER"
+            }]
+        },
+        {
+            "intent": "LetterIntent",
+            "slots": [{
+                    "name": "a",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "b",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "c",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "d",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "e",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "f",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "g",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "h",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "i",
+                    "type": "LETTERS"
+                },
+                {
+                    "name": "j",
+                    "type": "LETTERS"
+                }
+            ]
+        }
+    ]
+}

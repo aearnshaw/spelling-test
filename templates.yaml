@@ -1,0 +1,7 @@
+welcome: How many words?
+word: How do you spell word {{ w }}?
+repeat: Your words are {{ words|join(", ") }}.
+win: That is correct.
+lose: I'm sorry, that is wrong.
+spell: Spell {{ word }}. 
+end: You got {{ correct }} out of {{ now }} words right.
